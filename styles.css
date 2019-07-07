@@ -20,7 +20,7 @@ html, body {
    margin-left: 30px;
 }
 .index-banner {
-  background-image: url("res/img/testbackground.jpg");
+  background-image: url("res/img/background.jpg");
   width: 100%;
   height: calc(100vh);
   background-position: center;
@@ -31,16 +31,16 @@ html, body {
 }
 
 .index-banner h2 {
-  font-size: 40px;
-  color: red;
+  font-size: 80px;
+  color: white;
   text-align: center;
+      font-family: 'DM Sans', sans-serif;
 }
 
 .index-banner h1 {
   font-size: 30px;
-  color: green;
+  color: white;
   text-align: center;
-
 }
 
 .vertical-center {
@@ -68,6 +68,12 @@ header {
       font-weight: bold;
       font-size: 20px;
       letter-spacing: 2px;
+      font-family: 'DM Sans', sans-serif;
+}
+
+.logo a {
+  text-decoration: none;
+  color: inherit;
 }
 
 nav {
@@ -96,13 +102,27 @@ nav.black ul {
 
 nav ul li {
       display: inline-block;
-      padding: 16px 40px;;
+      padding: 16px 3%;
 }
 
 nav ul li a {
+  font-family: 'Poppins', sans-serif;
       text-decoration: none;
       color: #fff;
       font-size: 16px;
+      -webkit-transition: color 0.5s;
+    -moz-transition:    color 0.5s;
+    -ms-transition:     color 0.5s;
+    -o-transition:      color 0.5s;
+    transition:         color 0.5s;
+}
+
+nav ul li a:hover {
+  font-family: 'Poppins', sans-serif;
+      text-decoration: none;
+      color: grey;
+      font-size: 16px;
+
 }
 
 .menu-icon {
@@ -147,7 +167,7 @@ nav ul li a {
 
       .menu-icon {
             display: block;
-              background: rgba(0, 0, 0, 0);
+              background: rgba(0, 0, 0, 0.4);
       }
 
       .menu-icon.black {
