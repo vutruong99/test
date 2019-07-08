@@ -17,6 +17,7 @@ html, body {
   box-sizing: border-box;
 }
 
+/*Navigation Bar*/
 .navbar li {
    margin-left: 30px;
 }
@@ -139,6 +140,8 @@ nav ul li a:hover {
       display: none;
 }
 
+/*------------------------------------------------------------------*/
+
 .headline h1 {
   font-size: 60px;
   text-align: center;
@@ -146,6 +149,12 @@ nav ul li a:hover {
   position: relative;
 }
 
+.sub-headline h2 {
+  font-size: 40px;
+  font-weight: 100;
+  text-align: center;
+  margin: 50px auto;
+}
 .introduction {
   display: flex;
   align-items: center;
@@ -191,9 +200,17 @@ nav ul li a:hover {
 }
 
 
+.certifications table {
+margin: 0px auto;
+ width: 800px;
 
-.EDUCATION {
-  margin-top: 120px;
+}
+
+.certifications td {
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 @media(max-width: 786px) {
 
@@ -205,11 +222,11 @@ nav ul li a:hover {
 
       nav ul {
             max-height: 0px;
-             background-color: rgba(6, 8, 46, 0.8);
+             background-color: rgba(0, 0, 0, 0.8);
       }
 
       nav.black ul {
-             background-color: rgba(6, 8, 46, 0.8);
+             background-color: rgba(0, 0, 0, 0.8);
       }
 
       .showing {
@@ -225,11 +242,11 @@ nav ul li a:hover {
 
       .menu-icon {
             display: block;
-              background-color: rgba(6, 8, 46, 0.8);
+              background-color: rgba(0, 0, 0, 0.8);
       }
 
       .menu-icon.black {
-          background-color: rgba(6, 8, 46, 0.8);
+          background-color: rgba(0, 0, 0, 0.8);
       }
 
       .index-banner h2 {
@@ -246,9 +263,17 @@ nav ul li a:hover {
         margin: 60px auto;
       }
 
+      .sub-headline h2 {
+        font-size: 30px;
+      }
+
       .introduction {
         flex-direction: column;
 
+      }
+
+      .certifications table {
+        width: 80%;
       }
 }
 
