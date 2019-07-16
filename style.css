@@ -165,7 +165,7 @@ nav ul li a:hover {
 
 .info {
   align-self: center;
-    font-size: 16px;
+    font-size: 20px;
 }
 .info ul {
   margin-top: 0px;
@@ -186,7 +186,7 @@ nav ul li a:hover {
 .media p {
     margin: 40px auto;
     text-align: center;
-
+    font-size: 20px;
 }
 
 .media-flex {
@@ -215,22 +215,43 @@ margin: 0px auto;
 
 .language table {
   margin: 0px auto;
+
 }
 
 .language td {
   text-align: center;
   height: 30vh;
   padding-left: 40px;
+  font-size: 20px;
+
 }
 
 .lang-name {
   font-weight: bold;
   display:block;
+
 }
 
 .flag {
   width:200px;
 }
+
+.skills-table table {
+  margin: 0 auto;
+}
+
+.skills-table td {
+  text-align: center;
+  font-size: 20px;
+}
+
+.skills-table th {
+  text-align: center;
+  font-size: 20px;
+  padding: 0 30px;
+  padding-bottom:10px;
+}
+
 @media(max-width: 786px) {
 
       .logo {
@@ -277,6 +298,10 @@ margin: 0px auto;
         font-size: 25px;
       }
 
+      .info, .media p {
+          font-size: 17px;
+      }
+
       .headline h1 {
         font-size: 45px;
         margin: 60px auto;
@@ -291,7 +316,7 @@ margin: 0px auto;
 
       }
 
-      .language table, .certifications table {
+    .language table, .certifications table {
 
       }
 
@@ -301,8 +326,11 @@ margin: 0px auto;
         padding-right:5px;
       }
 
-      .certifications td,.language td {
-        font-size: 15px;
+      .skills-table th {
+        font-size: 17px;
+      }
+      .skills-table td, .certifications td,.language td {
+        font-size: 17px;
       }
 }
 
