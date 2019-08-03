@@ -10,3 +10,8 @@ $('.wrapper a').on('click', function (e) {
 		 },800);
 	}
 });
+
+function greeting() {
+  var time = today.getHours();
+  document.getElementById("greeting").innerHTML = "Good afternoon";
+}

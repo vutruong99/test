@@ -35,7 +35,21 @@
 
       <section class="index-banner">
         <div class="vertical-center">
-          <h2>WELCOME</h2>
+          <h2 id = "greeting">WELCOME</h2>
+          <script type="text/javascript">
+              var today = new Date()
+              var time = today.getHours();
+              if (12<time && time<18) {
+                  document.getElementById("greeting").innerHTML = "GOOD AFTERNOON";
+              }
+              if (0<time && time<12) {
+                  document.getElementById("greeting").innerHTML = "GOOD MORNING";
+              }
+              if (18<time && time<23) {
+                  document.getElementById("greeting").innerHTML = "GOOD EVENING";
+              }
+          </script>
+
           <h1>Why be a king, when you can be a god?</h1>
         </div>
       </section>
@@ -150,7 +164,7 @@
             </tr>
             <tr data-aos="fade-left"  data-aos-once="true" data-aos-duration="1000" >
               <td class="flag"><img src="res/svg/gb.svg" alt=""></td>
-              <td><span class="lang-name">English</span>Intermediate</td>
+              <td><span class="lang-name">English</span>Fluent</td>
             </tr>
             <tr data-aos="fade-right"  data-aos-once="true" data-aos-duration="1000" >
               <td class="flag"><img src="res/svg/fr.svg" alt=""></td>
@@ -227,7 +241,6 @@
 			  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
 			  crossorigin="anonymous"></script>
       <script src="main.js">
-
       </script>
   </body>
 </html>
